@@ -1,24 +1,41 @@
 body {
   background-color: #ccc;
   font-family: sans-serif;
-  display: flex;
-  margin: 8%;
-  margin-top: 30px;
-  margin-bottom: 0;
+  display: block;
+  margin: 8px;
 }
 
 header {
   margin: 0 auto;
   font-size: 36px;
+  margin-right: 20px;
+}
+
+#mainHeading {
+  color: red;
+}
+
+#testP {
+  color: green;
 }
 
 .images {
-  border-radius: 100%;
   width: 200px;
+  display: block;
 }
 
 #main-content {
-  flex-wrap: nowrap;
 }
 article {
+  display: block;
+}
+footer {
+  background-color: #222;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  bottom: -10px;
+  left: -10px;
 }
